@@ -70,10 +70,6 @@ const App = ({ context, notificationPosition } : IProps) => {
       setActiveView(allViews[0] ?? []);
     }
 
-    if (allViews[0]) {
-      handleViewChange();
-    }
-
     setIsLoading(false);
   }
 
