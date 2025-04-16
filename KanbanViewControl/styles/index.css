@@ -174,7 +174,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   border-top: 1px solid rgb(241, 241, 241);
   padding-top: 16px;
 }
@@ -289,14 +289,6 @@ body {
   background: var(--sb-thumb-color);
   border-radius: 4px;
   border: 1px solid #dedede;
-}
-
-.text-badge {
-  color: white;
-  padding: 4px 8px;
-  text-align: center;
-  border-radius: 5px;
-  margin: 0 2px;
 }
 
 @supports not selector(::-webkit-scrollbar) {
